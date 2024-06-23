@@ -52,3 +52,7 @@ clean-all:
 # open
 open:
     @open apps/testing_interface.html
+
+# tensors
+tensors:
+    @tensorboard --logdir=lightning_logs

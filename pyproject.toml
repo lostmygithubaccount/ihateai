@@ -23,11 +23,14 @@ dependencies = [
     # viz
     'plotly',
     'streamlit',
+    'tensorboard',
     # ml
     'mlflow',
     'optuna',
     'scikit-learn',
     'xgboost',
+    'torch',
+    'lightning',
 ]
 
 [project.urls]

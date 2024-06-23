@@ -3,10 +3,10 @@ import plotly.express as px
 
 class ColorGird:
     """
-    Example grid: [[[0, 7, 7], [7, 7, 7], [0, 7, 7]]]
-
     Colors represented by numbers, 0-10
     Grid represented by 2D list of colors
+
+    Example grid: [[[0, 7, 7], [7, 7, 7], [0, 7, 7]]]
     """
 
     def __init__(self, grid):
