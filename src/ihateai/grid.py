@@ -55,7 +55,7 @@ class InputOutputPair:
         self.output = ColorGird(output)
 
     def __repr__(self):
-        return f"Input: {self.input}\nOutput: {self.output}"
+        return f"Input:\n{self.input}\nOutput:\n{self.output}"
 
     def __str__(self):
         return self.__repr__()
